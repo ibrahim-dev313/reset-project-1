@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  /* border: 1px solid red; */
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+nav a {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  color: white;
+  padding: 10px 30px;
+}
+.nav-items {
+  display: inline-flex;
+  text-decoration: none;
+}
+.hero-img-container {
+  background: url("/images/banner/banner1.png");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-details {
+  width: 30%;
+  float: right;
+  margin: 20% 15%;
+}
+.hero-text {
+  word-wrap: normal;
+  text-align: right;
+}
+h1 {
+  font-size: 2.2rem;
+}
+p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: justify;
+}
+.btn {
+  background-color: #f15b22;
+  border: none;
+  color: white;
+  margin-top: 15px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.middle-container {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  width: 100%;
+}
+.middle-img img {
+  width: 60%;
+  margin-left: 25%;
+}
+.middle-details {
+  width: 30%;
+  margin: auto;
+}
+.plans-container {
+  margin-top: 200px;
+  /* border: 2px #f15b22 solid; */
+}
+.plans-container h2 {
+  text-align: center;
+  margin: 2%;
+}
+.plans {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5%;
+}
+
+.plan {
+  margin: 5px 10px;
+  padding: auto 30px;
+  /* border: 2px solid red; */
+  width: 250px;
+  height: auto;
+  text-align: center;
+  display: inline-block;
+}
+.plan h3 {
+  font-weight: 700;
+}
+.plan p {
+  text-align: center;
+}
+
+.call-now {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  margin: 10px 30px;
+  padding: 50px;
+  height: 35vh;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+footer h2 {
+  font-size: 30px;
+}
+footer a {
+  text-decoration: none;
+}
+.email-input {
+  padding: 10px 30px;
+}
